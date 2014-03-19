@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search Widget -->
+    <item android:id="@+id/action_option"
+          android:icon="@drawable/optionmenu"
+          android:title="@string/action_option"
+          android:showAsAction="ifRoom"
+         />
+    
+   
+    
+    <!-- Refresh -->
+    <item android:id="@+id/action_watch"
+          android:icon="@drawable/watch"
+          android:title="@string/action_watch" 
+          android:showAsAction="ifRoom" />
+    
+    <!-- Help -->
+    <item android:id="@+id/action_play"
+          android:icon="@drawable/play"
+          android:title="@string/action_play" 
+          android:showAsAction="ifRoom"/>
+    
+    <!--  we use android:showAsAction=ifRoom means if space available then show
+    we can use always, never for this also as per your requiremnet. -->
+    
+</menu>
